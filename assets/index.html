@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Uhuyyy ❤️</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+</head>
+
+<body class="locked">
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop autoplay>
+        <source src="assets/music/music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- FALLING -->
+    <div class="falling-container" id="fallingContainer"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
+
+                Hi Tita Cantik ❤️
+
+            </h1>
+
+            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1500">
+
+                Aku bikin sesuatu buat kamu...
+
+            </h2>
+
+            <h3 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2500">
+
+                Input tanggal jadian kita dulu sayang...
+
+            </h3>
+
+            <br>
+
+            <div class="date-box" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="3500">
+
+                <input type="text" id="dateInput" placeholder="Tanggal jadian kita ❤️">
+
+                <button id="startBtn">
+                    Klik ini sayang
+                </button>
+
+                <p id="errorText"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="timeline">
+
+        <h2 data-aos="fade-up" data-aos-duration="3000">
+
+            Permataku ❤️
+
+        </h2>
+
+        <!-- ITEM 1 -->
+        <div class="story-block left" data-aos="fade-right" data-aos-duration="5000" data-aos-delay="2000"
+            data-aos-easing="ease-in-out" data-aos-once="true">
+
+            <div class="story-image">
+                <img src="assets/img/1.jpeg" alt="">
+            </div>
+
+            <div class="story-content">
+
+                <span>Cemberut</span>
+
+                <h3>Lucuuukkk</h3>
+
+                <p>
+                    Suka gemesss kalo liat beginian sayang ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="story-block right" data-aos="fade-left" data-aos-duration="5000" data-aos-delay="2000"
+            data-aos-easing="ease-in-out" data-aos-once="true">
+
+            <div class="story-image">
+                <img src="assets/img/2.jpeg" alt="">
+            </div>
+
+            <div class="story-content">
+
+                <span>Cetarrrr</span>
+
+                <h3>Cantik Bgt</h3>
+
+                <p>
+                    Suka kangen kalo liat foto ini.
+                    Tapi emang selalu kangen sihh ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="story-block right" data-aos="fade-left" data-aos-duration="5000" data-aos-delay="2000"
+            data-aos-easing="ease-in-out" data-aos-once="true">
+
+            <div class="story-image">
+                <img src="assets/img/3.jpeg" alt="">
+            </div>
+
+            <div class="story-content">
+
+                <span>Kalemmm</span>
+
+                <h3>Bikin Ademm Liatnyaa</h3>
+
+                <p>
+                    Sampai detik ini,
+                    aku masih milih kamu.
+                    Dan semoga seterusnya juga kamu sayang ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LETTER -->
+    <section class="letter">
+
+        <div class="letter-wrapper" data-aos="fade-up" data-aos-duration="4000" data-aos-delay="500">
+
+            <div class="letter-image">
+                <img src="assets/img/4.jpeg" alt="">
+            </div>
+
+            <div class="letter-box">
+
+                <h2>For Tita ❤️</h2>
+
+                <p id="typingText"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="counter-section">
+
+        <h2>Udah bareng selama ❤️</h2>
+
+        <div class="counter-box">
+
+            <div>
+                <h3 id="days">2.882</h3>
+                <p>Hari</p>
+                <p>dipotong itu 😒</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="reason-section">
+
+        <h2>Kenapa Aku Selalu Sayang Kamu ❤️</h2>
+
+        <div class="reason-grid">
+
+            <div class="reason-card">
+                <h3>Senyummu</h3>
+                <p>
+                    Karena tiap kamu senyum, aku tenang.
+                </p>
+            </div>
+
+            <div class="reason-card">
+                <h3>Perhatianmu</h3>
+                <p>
+                    Hal kecil yang kamu lakuin selalu bikin aku merasa dicintai.
+                </p>
+            </div>
+
+            <div class="reason-card">
+                <h3>Kamu</h3>
+                <p>
+                    Karena jadi diri kamu aja udah cukup buat aku jatuh cinta.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BUTTON -->
+    <button id="surpriseBtn">
+        Jangan Dipencet 😠
+    </button>
+
+    <!-- SURPRISE -->
+    <div id="surpriseScreen">
+
+        <div class="love-text">
+            I LOVE YOU ❤️
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Made with ❤️ by Ivan
+        </p>
+
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
